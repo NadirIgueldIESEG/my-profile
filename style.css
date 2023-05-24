@@ -1,0 +1,100 @@
+/* Colors and fonts */
+body {
+  background-color: #02c39a;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: Permanent Marker;
+  color: #02c39a;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 100;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+
+}
+
+@media (max-width: 760px){
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 500px){
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 20%;
+  width: 20%;
+}
+
+.btn-blue {
+  background-color: #028090;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #02c39a;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #028090;
+}
+
+.list-inline i:hover {
+  color: #02c39a;
+}
+
+#intro p {
+margin-bottom: 40px;
+  
+}
